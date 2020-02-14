@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="courriel.user_security_category" model="ir.module.category">
+        <field name="name">user</field>
+        <field name="sequence">1</field>   
+    </record>
+            
+        <record id="courriel.user_Admin" model="res.groups">
+             <field name="name">administrateur</field>
+            <field name="category_id" ref="courriel.user_security_category"/>
+        </record>
+
+         <record id="courriel.user_Writer" model="res.groups">
+             <field name="name">writer</field>
+            <field name="category_id" ref="courriel.user_security_category"/>
+        </record>
+
+        
+
+
+
+        <!-- <record id="user_request_rule" model="ir.rule">
+            <field name="name">user Request User</field>
+            <field name="model_id" ref="model_gc_conge"/>
+            <field name="groups" eval="[(6,0, [ref('user_personel')])]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_unlink" eval="False"/>
+            <field name="domain_force">[('current_user','=',user.id)]</field>
+        </record>
+         <record id="resp_request_rules" model="ir.rule">
+            <field name="name">user Request User</field>
+            <field name="model_id" ref="model_gc_conge"/>
+            <field name="groups" eval="[(6,0, [ref('user_Respansable')])]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_unlink" eval="False"/>
+            <field name="domain_force">[('current_user.departement.id','=',user.departement.id)]</field>
+        </record> -->
+</odoo>

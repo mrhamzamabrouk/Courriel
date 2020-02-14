@@ -1,0 +1,17 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+user_access_admin,user_access_admin,model_courriel_courrie,courriel.user_Admin,1,1,1,1
+user_access_admin1,user_access_admin1,model_courriel_collab,courriel.user_Admin,1,1,1,1
+user_access_admin3,user_access_admin2,model_courriel_emetteur,courriel.user_Admin,1,1,1,1
+user_access_admin4,user_access_admin3,model_courriel_exmail,courriel.user_Admin,1,1,1,1
+user_access_admin5,user_access_admin4,model_courriel_piecej,courriel.user_Admin,1,1,1,1
+user_access_admin6,user_access_admin5,model_courriel_recepteur,courriel.user_Admin,1,1,1,1
+
+user_access_writer,user_access_writer,model_courriel_courrie,courriel.user_Writer,1,1,1,1
+user_access_writer1,user_access_writer1,model_courriel_collab,courriel.user_Writer,1,1,1,1
+user_access_writer2,user_access_writer2,model_courriel_emetteur,courriel.user_Writer,1,1,1,1
+user_access_writer3,user_access_writer3,model_courriel_exmail,courriel.user_Writer,1,1,1,1
+user_access_writer4,user_access_writer4,model_courriel_piecej,courriel.user_Writer,1,1,1,1
+user_access_writer5,user_access_writer5,model_courriel_recepteur,courriel.user_Writer,1,1,1,1
+
+
